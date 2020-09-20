@@ -1,0 +1,27 @@
+{
+  "name": "CSLogin",
+  "version": "0.1.0",
+  "summary": "A short description of CSLogin.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/chen2sheng/CSLogin",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "chen2sheng": "crystal-butterfly7@163.com"
+  },
+  "source": {
+    "git": "https://github.com/chen2sheng/CSLogin.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CSLogin/Classes/**/*",
+  "dependencies": {
+    "CSNetwork": [
+
+    ]
+  }
+}

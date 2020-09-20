@@ -1,0 +1,6 @@
+framework module CSLogin {
+  umbrella header "CSLogin-umbrella.h"
+
+  export *
+  module * { export * }
+}

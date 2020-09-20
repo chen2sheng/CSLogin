@@ -1,0 +1,33 @@
+PODS:
+  - CSLogin (0.1.0):
+    - CSNetwork
+  - CSNetwork (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - CSLogin (from `../`)
+  - CSNetwork (from `../../CSNetwork`)
+  - FBSnapshotTestCase
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  CSLogin:
+    :path: "../"
+  CSNetwork:
+    :path: "../../CSNetwork"
+
+SPEC CHECKSUMS:
+  CSLogin: 17815a85bb3f8915fc62b7bad7c28dbfcb7df5e0
+  CSNetwork: e81368ef85333de8342a80241db1ee6891d4d33d
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: 7721c7d0e0b1642c1332236dae92d3681e83a0a2
+
+COCOAPODS: 1.9.3

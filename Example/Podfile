@@ -4,6 +4,7 @@ platform :ios, '8.0'
 
 target 'CSLogin_Example' do
   pod 'CSLogin', :path => '../'
+  pod 'CSNetwork',:path=>'../../CSNetwork'
 
   target 'CSLogin_Tests' do
     inherit! :search_paths
